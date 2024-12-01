@@ -1,0 +1,66 @@
+name: flutter_demo
+description: A new Flutter project.
+
+version: 1.2.1
+
+environment:
+  sdk: ">=2.19.4 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  get: ^5.0.0-release-candidate-5 # MIT license
+  google_fonts: ^6.2.1
+  control_style: ^0.1.0
+  flutter_svg: ^2.0.5
+  http: ^1.1.2
+  shared_preferences: ^2.0.8
+  jwt_decoder: ^2.0.1
+  count_stepper: ^0.0.4
+  cached_network_image: ^3.3.0
+  connectivity_plus: ^6.0.3
+  # connectivity_plus: ^5.0.2
+  flutter_svg_provider: ^1.0.3
+  intl: ^0.19.0
+  google_sign_in: ^6.2.1
+  flutter_facebook_auth: ^6.0.3
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+  google_maps: 6.3.0
+  geocoding: ^2.0.1
+  location: ^5.0.3
+  image_picker: ^1.0.4
+  file_picker: ^7.0.0
+  image_cropper: ^5.0.1
+  flutter_spinkit: ^5.1.0
+  permission_handler: ^11.1.0
+  webview_flutter: ^2.0.13
+  flutter_launcher_icons: ^0.9.2
+  pinput: ^3.0.1
+  pin_code_fields: ^8.0.1
+  flutter_cache_manager: ^3.3.1
+  flutter_stripe: ^10.1.1
+  url_launcher: ^6.0.6
+  google_places_flutter: ^2.0.8
+  uuid: ^4.4.0
+  multi_dropdown: ^2.1.4
+  syncfusion_flutter_pdfviewer: ^24.2.8
+  sign_in_with_apple: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_Icon.png" # Adjust the path to your icon image
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
