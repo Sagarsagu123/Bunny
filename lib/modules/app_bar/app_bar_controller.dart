@@ -6,4 +6,6 @@ class AppBarController extends GetxController {
     // var response = await ApiService.fetchData();
     return Container();
   }
+
+  
 }
